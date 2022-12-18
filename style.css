@@ -2,10 +2,10 @@
   width: 100px;
   height: 100px;
   border: solid 10px #000;
-  margin-right: 10px;
+  margin-right: 15px;
 }
 .avatar{
-  width: 75%;
+  width: 65%;
   display: flex;
   align-items: center;
 }
@@ -15,18 +15,19 @@
   margin-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
+  text-align: left;
   list-style-position: inside;
 }
 .header_block{
   width: 1000px;
-  margin-top: 20px;
+  padding-top: 20px;
   margin-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
 }
 .first_block{
   display: flex;
+  justify-content: space-between;
 }
 .link{
   line-height: 1px;
@@ -37,9 +38,7 @@
   width: 200px;
   height: 40px;
   padding-top: 10px;
-  background-color: aquamarine;
-  margin-left: auto;
-  margin-right: auto;
+  background-color: bisque;
 }
 .main_block{
   background-color: darkgrey;
@@ -54,4 +53,21 @@
 }
 body{
   vertical-align: middle;
+  margin: 0;
+  padding: 0;
+}
+.specs_color{
+  font-size: 30px;
+  display: table;
+  border-bottom: solid 1px;
+  line-height: 50px;
+  color: maroon;
+}
+.menu{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 300px;
+  font-size: 24px;
+  line-height: 40px;
+  border-bottom: solid 2px;
 }
